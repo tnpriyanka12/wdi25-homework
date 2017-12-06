@@ -1,7 +1,7 @@
+// Refactored code so rainSpeak is a function that can be called with any number.
+
 console.log('HELLO');
 
-
-let str = "";
 
 const isFactor = function(num, factor){
 
@@ -13,8 +13,10 @@ const isFactor = function(num, factor){
   // }
 };
 
-
 const rainSpeak = function( number ){
+  // initialise an empty str each time the function is called
+  let str = "";
+
   if ( isFactor(number, 3) ){
     str += 'Pling';
   }
@@ -36,4 +38,4 @@ const rainSpeak = function( number ){
 
 
 
-console.log(rainSpeak(105))
+// console.log(rainSpeak(105))
