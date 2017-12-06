@@ -1,0 +1,526 @@
+   91  rm South_America/
+   92  rmdir South_America/
+   93  ls
+   94  mv North_America/ Americas
+   95  ls
+   96  ls Americas/
+   97  ls
+   98  ls
+   99  ls /tmp
+  100  ls
+  101  mkir ~/wdi
+  102  mkdir ~/wdi
+  103  cd ~/wdi/
+  104  pwd
+  105  mkdir iterm-logs
+  106  ls
+  107  cleart
+  108  clear
+  109  ls -help
+  110  ls --help
+  111  clear
+  112  echo $0
+  113  sh
+  114  echo $0
+  115  /bin/bash
+  116  which bash
+  117  pwd
+  118  ls
+  119  ls -l
+  120  ls -la
+  121  man ls
+  122  man
+  123  pwd
+  124  mkdir week1
+  125  ls
+  126  cd week1/
+  127  clear
+  128  ls
+  129  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  130  brew
+  131  man bre
+  132  man brew
+  133  clear
+  134  man ls
+  135  man
+  136  brew install tree
+  137  tree
+  138  tree /Users/ramidipriyanka/wdi/
+  139  tree ~/wdi/
+  140  pwd
+  141  ls
+  142  pwd
+  143  clear
+  144  clear
+  145  ls
+  146  pwd
+  147  whoami
+  148  who
+  149  clear
+  150  ps
+  151  mkdir library
+  152  ls
+  153  ls library/
+  154  pwd
+  155  touch books
+  156  echo hi
+  157  echo "Neuromancer by William Gibson"
+  158  echo "Neuromancer by William Gibson" > books
+  159  cat books 
+  160  echo "ABC by EFG" > books 
+  161  cat books 
+  162  echo "Neuromancer by William Gibson" >> books
+  163  cat books 
+  164  touch bar
+  165  ls
+  166  cat bar 
+  167  echo Laphroiagh > bar
+  168  echo line2 > bar
+  169  echo line3 > bar
+  170  clear
+  171  echo bar
+  172  cat bar 
+  173  echo Laphroiagh > bar
+  174  echo line2 >> bar
+  175  echo line3 >> bar
+  176  cat bar
+  177  cat *
+  178  cat books bar
+  179  cat * > contentsofeverything
+  180  cat contentsofeverything 
+  181  sort contentsofeverything 
+  182  cat contentsofeverything 
+  183  clear
+  184  cat * | sort
+  185  ls
+  186  ls
+  187  rm contentsofeverything 
+  188  cat * | sort
+  189  ls
+  190  ls library/
+  191  ls library/
+  192  ls
+  193  mv bar books library/
+  194  ls
+  195  cd library/
+  196  cat * | sort
+  197  clear
+  198  ls
+  199  ls ..
+  200  ls ../..
+  201  grep Kids *
+  202  l
+  203  ls
+  204  cat *
+  205  grep li*
+  206  ls
+  207  grep neuromancer *
+  208  grep Neuromancer *
+  209  grep -i neuromancer *
+  210  grep -i neuromancer books 
+  211  grep -i neuromancer bar 
+  212  ps aux 
+  213  ps aux | grep bash
+  214  clear
+  215  man grep
+  216  ls
+  217  cp books more_books
+  218  cat *books*
+  219  ls ~/Downloads/
+  220  ls ~/Downloads/clmystery-master/
+  221  cat ~/Downloads/clmystery-master/instructions 
+  222  cat ~/Downloads/clmystery-master/mystery/
+  223  clear
+  224  ls
+  225  cd ..
+  226  ls
+  227  cd ..
+  228  ls
+  229  mv ~/Downloads/clmystery-master/ ~/wdi/week1/
+  230  cd ~/wdi/week1/
+  231  ls
+  232  cd clmystery-master/
+  233  ls
+  234  cat instructions 
+  235  cat mystery/crimescene 
+  236  clear
+  237  ls
+  238  cat instructions 
+  239  cat mystery/crimescene | grep "CLUE"
+  240  cat hint1 
+  241  clear
+  242  cat hint1
+  243  head -n 20 mystery/people 
+  244  cat  mystery/people 
+  245  cat hint2 
+  246  grel "CLUE" mystery/crimescene 
+  247  grep "CLUE" mystery/crimescene 
+  248  clear
+  249  ls
+  250   at hint3
+  251   cat hint3
+  252  head mystery/people 
+  253  head -n 10 mystery/people 
+  254  head -n 5 mystery/people 
+  255  clear
+  256  ls
+  257  cat hint*
+  258  clear
+  259  cat instructions 
+  260  clear
+  261  cat instructions 
+  262  cat hint1 
+  263  cat hint12
+  264  cat hint2
+  265  cat hint3
+  266  head -n 20 mystery/vehicles 
+  267  head -n 30 mystery/vehicles 
+  268  cat mystery/vehicles | grep Height*
+  269  cat mystery/vehicles 
+  270  cat mystery/vehicles | grep "License*Weight
+  271  cat mystery/vehicles | grep "License*Weight"
+  272  clear
+  273  ls
+  274  cat hint4
+  275  cat hint5
+  276  cat hint6
+  277  cat hint7 
+  278  man grep -A
+  279  man grep
+  280  clear
+  281  ls
+  282  cat hint8
+  283  clear
+  284  cat hint
+  285  cat hint*
+  286  cleaf
+  287  clear
+  288  ls
+  289  cat hint1 hint2 hint3
+  290  grep "CLUE" mystery/crimescene 
+  291  cat hint4 hint5 hint6
+  292  grep '*Annabel*' mystery/people 
+  293  grep 'Annabel' mystery/people 
+  294  grep '*Annabel' mystery/people 
+  295  grep 'Annabel*' mystery/people 
+  296  grep *Annabel* mystery/people 
+  297  grep Annabel* mystery/people 
+  298  grep Annabel mystery/people 
+  299  ls ..
+  300  grep Annabel* mystery/people 
+  301  grep *Annabel mystery/people 
+  302  clear
+  303  ls
+  304  cat hint4 hint5 hint6
+  305  head -n 173 mystery/streets/Mattapan_Street | tail -n 1
+  306  head -n 173 mystery/streets/Mattapan_Street | tail -n 10
+  307  clear
+  308  cat hint*
+  309  clear
+  310  ls
+  311  cat instructions 
+  312  grep "CLUE" mystery/crimescene 
+  313  clear
+  314  ls
+  315  cat hint1 hint2 hint3
+  316  cat hint4 hint 5 hint6
+  317  cat hint4 hint5 hint6
+  318  clear
+  319  cat hint1 hint2 hint3
+  320  cat hint4 hint5 hint6
+  321  grep Annabel mystery/people 
+  322  head -n 40 mystery/streets/
+  323  head -n 40 mystery/streets/Hart_Place 
+  324  head -n 10 mystery/streets/Hart_Place 
+  325  grep Annabel mystery/people  > myobservations
+  326  grep Annabel mystery/people | grep *F* > myobservations
+  327* cat m
+  328* cat myobservations
+  329  grep Annabel mystery/people | grep M
+  330  grep Annabel mystery/people | grep M > myobservations 
+  331  echo "two males so searching for them" >> myobservations 
+  332  cat myobservations 
+  333  echo " " >> myobservations 
+  334  cat myobservations 
+  335  clear
+  336  cat hint4 hint5 hint6
+  337  grep Annabel mystery/people | grep F > myobservationsfem 
+  338  cat myobservationsfem 
+  339  grep Annabel mystery/people | grep 'F ' > myobservationsfem 
+  340  cat myobservationsfem 
+  341  grep Annabel mystery/people | grep 'F\n' > myobservationsfem 
+  342  cat myobservationsfem 
+  343  grep Annabel mystery/people | grep 'F\n' 
+  344  grep Annabel mystery/people | grep F
+  345  grep Annabel mystery/people | grep "*F *"
+  346  grep Annabel mystery/people | grep "*F\s"
+  347  grep Annabel mystery/people | grep "F\s"
+  348  grep Annabel mystery/people | grep "F\s" myobservationsfem 
+  349  echo "two females name Annabelle, so searching for them" >> myobservations 
+  350  rm myobservations
+  351  ls
+  352  echo "two females name Annabelle, so searching for them" >> myobservationsfem 
+  353  ls
+  354  echo " " >> myobservationsfem 
+  355  cat myobservationsfem 
+  356  grep Annabel mystery/people | grep "F\s" > myobservationsfem 
+  357  cat myobservationsfem 
+  358  echo "two females name Annabelle, so searching for them" >> myobservationsfem 
+  359  cat myobservationsfem 
+  360  echo " " >> myobservationsfem 
+  361  cat myobservationsfem 
+  362  clear
+  363  cat myobservationsfem  hint4
+  364  cat hint4 hint5 hint6
+  365  head -n 40 mystery/streets/Hart_Place 
+  366  head -n 40 mystery/streets/Hart_Place  | tail -n 1
+  367  head -n 40 mystery/streets/Hart_Place  | tail -n 1 >> myobservationsfem 
+  368  head -n 179 mystery/streets/Buckingham_Place  | tail -n 1  
+  369  head -n 179 mystery/streets/Buckingham_Place  | tail -n 1  >> myobservationsfem 
+  370  ls
+  371  cat hint5 hint6
+  372  cat hint5 hint7
+  373  grep -A 5 "L337" mystery/vehicles 
+  374  man grep 
+  375  grep "L337" mystery/vehicles 
+  376  grep -A 5 "L337" mystery/vehicles 
+  377  grep -A 5 "L337" mystery/vehicles | grep -A 2 "6\'*" 
+  378  man grep 
+  379  grep -A 5 "L337" mystery/vehicles | grep -B 2 "6\'*" 
+  380  grep -A 5 "L337" mystery/vehicles | grep -B 3 "6\'*" 
+  381  grep -A 5 "L337" mystery/vehicles | grep -B 4 "6\'*" 
+  382  clear
+  383  grep -A 5 "L337" mystery/vehicles | grep -B 4 "6\'*"  >> myobservationsfem 
+  384  cat my
+  385  cat myobservationsfem 
+  386  clear
+  387  cat hint7
+  388  cat hint8
+  389  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  390  ls
+  391  ls my
+  392  ls mystery/
+  393  ls mystery/memberships/
+  394  cleaf
+  395  clear
+  396  ls
+  397  mv myobservationsfem femaleculprits
+  398  cat femaleculprits 
+  399  clear
+  400  cat hint8 hint9
+  401  ls
+  402  cat hint8 hint7
+  403  cat hint8
+  404  clear
+  405  clear
+  406  cat hint8
+  407  man wc
+  408  cat mystery/memberships/Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith" 
+  409  cat mystery/memberships/Fitness_Galaxy AAA United_MileagePlus | grep  "John Smith" 
+  410  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA mystery/memberships/United_MileagePlus | grep  "John Smith" 
+  411  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA mystery/memberships/United_MileagePlus 
+  412  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA mystery/memberships/United_MileagePlus | grep Annabel
+  413  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA mystery/memberships/United_MileagePlus 
+  414  cat mystery/memberships/Fitness_Galaxy 
+  415  clear
+  416  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA | grep Annabel
+  417  cat femaleculprits 
+  418  cat mystery/memberships/Fitness_Galaxy | grep Annabel
+  419  cat mystery/memberships/AAA | grep Annabel
+  420  grep "CLUE" mystery/crimescene 
+  421  ls mystery/memberships/Museum_of_Bash_History 
+  422  cat mystery/memberships/Museum_of_Bash_History 
+  423  cat mystery/memberships/Museum_of_Bash_History | grep Annabell
+  424  cat mystery/memberships/Museum_of_Bash_History | grep Annabel
+  425  grep "CLUE" mystery/crimescene 
+  426  cat mystery/memberships/AAA | grep Annabel
+  427  cat mystery/memberships/Museum_of_Bash_History | grep Annabel
+  428  cat mystery/memberships/Delta_SkyMiles | grep Annabel
+  429  cat mystery/memberships/Terminal_City_Library | grep Annabel
+  430  cat mystery/memberships/Terminal_City_Library | grep Ann*
+  431  cat mystery/memberships/Terminal_City_Library | grep Anna*
+  432  clear
+  433  ls
+  434  cat hint6
+  435  grep "L337" mystery/vehicles 
+  436  grep -A 5 "L337" mystery/vehicles 
+  437  clear
+  438  ls
+  439  cat femaleculprits 
+  440  grep -A 5 "L337" mystery/vehicles  | grep -B 2 "Height"
+  441  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height"
+  442  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height" >> femaleculprits 
+  443  clear
+  444  cat femaleculprits 
+  445  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height" >> femaleculprits 
+  446  clear
+  447  ls
+  448  cat mystery/crimescene | grep "CLUE"
+  449  cat femaleculprits 
+  450  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA | grep Mike Bostock
+  451  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA | grep "Mike Bostock"
+  452  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA mystery/memberships/Terminal_City_Library | grep "Mike Bostock"
+  453  cat mystery/memberships/Fitness_Galaxy mystery/memberships/AAA | grep "Mike Bostock"
+  454  cat mystery/memberships/Fitness_Galaxy  | grep "Mike Bostock"
+  455  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library | grep "Mike Bostock"
+  456  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Mike Bostock"
+  457  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library | grep "John Keefe"
+  458  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library | grep "Mike Bostock" | wc -l 
+  459  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Mike Bostock"
+  460  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Mike Bostock" | wc -l
+  461  clear
+  462  ls
+  463  cat mystery/crimescene | grep CLUE
+  464  cat femaleculprits 
+  465  clear
+  466  ls
+  467  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Mike Bostock" | wc -l
+  468  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height"
+  469  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Aron Pilhofer" | wc -l
+  470  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Heather Billings" | wc -l
+  471  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Mike Bostock" | wc -l
+  472  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Heather Billings" | wc -l
+  473  cat mystery/crimescene | grep CLUE
+  474  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height*6\'*"
+  475  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height\:6\'*"
+  476  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height*6*"
+  477  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height"
+  478  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:6'*"
+  479  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:*"
+  480  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:\n6*"
+  481  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:6*"
+  482  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:6*"
+  483  clear
+  484  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:6*"
+  485  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height:*6*"
+  486  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6*"
+  487  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6"
+  488  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6*"
+  489  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6"
+  490  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6" > greaterthan6feet
+  491  cat greaterthan6feet 
+  492  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Katie Park" | wc -l
+  493  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Erika Owens" | wc -l
+  494  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Matt Waite" | wc -l
+  495  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Brian Boyer" | wc -l
+  496  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Al Shaw" | wc -l
+  497  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Miranda Mulligan" | wc -l
+  498  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Joe Germuska" | wc -l
+  499  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  500  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+  501  echo "Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Katie Park" | wc -l
+       2
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Erika Owens" | wc -l
+       0
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Matt Waite" | wc -l
+       4
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Brian Boyer" | wc -l
+       4
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Al Shaw" | wc -l
+       2
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Miranda Mulligan" | wc -l
+       3
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master$ cat mysteRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+       4"
+  502  echo "Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Katie Park" | wc -l
+       2
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Erika Owens" | wc -l
+       0
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Matt Waite" | wc -l
+       4
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Brian Boyer" | wc -l
+       4
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Al Shaw" | wc -l
+       2
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Miranda Mulligan" | wc -l
+       3
+Ramidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master$ cat mysteRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ramidipriyanka$ cat mysteryRamidis-MacBook-Pro:clmystery-master ka$ cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+       4" > all4
+  503  cat all4
+  504  rm all4 
+  505  ls
+  506  cat mystery/crimescene | grep CLUE
+  507  clear
+  508  cat hint1 hint2 hint3
+  509  cat hint4 hint5 hint6
+  510  grep Annabel mystery/people 
+  511  head -n 179 mystery/streets/Buckingham_Place | tail -n 2
+  512  head -n 37 mystery/streets/Mattapan_Street | tail -n 2
+  513  cat mystery/crimescene | grep CLUE
+  514  head -n 40 mystery/streets/Hart_Place | tail -n 2
+  515  head -n 179 mystery/streets/Buckingham_Place | tail -n 2
+  516  head -n 179 mystery/streets/Buckingham_Place | tail -n 3
+  517  head -n 40 mystery/streets/Hart_Place | tail -n 3
+  518  clear
+  519  cat hint*
+  520  clear
+  521  ls
+  522  ls solution 
+  523  cat solution 
+  524  clear
+  525  ls
+  526  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6"
+  527  grep -A 5 "L337" mystery/vehicles  | grep -B 5 "Height: 6"
+  528  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6"
+  529  grep -A 5 "L337" mystery/vehicles  | grep -B 1 "Height: 6"
+  530  grep -A 5 "L337" mystery/vehicles  
+  531  cp cheatsheet.pdf ~/Downloads/
+  532  ls
+  533  ls encoded 
+  534  cat encoded 
+  535  clear
+  536  ls
+  537  cat README.md 
+  538   grep -B 6 "Height: 6" mystery/vehicles 
+  539  cat hint
+  540  cat hint1
+  541  cat hint2
+  542  cat hint3
+  543  head -n 20 mystery/vehicles 
+  544  head -n 20 mystery/people 
+  545  clear
+  546  clear
+  547   grep -B 6 "Height: 6" mystery/vehicles 
+  548   grep -B 6 "Height: 6" mystery/vehicles  | grep Owner | wc -l
+  549   grep -B 6 "Height: 6" mystery/vehicles 
+  550   grep -B 6 "Height: 6" mystery/vehicles  | grep Owner 
+  551   grep -B 6 "Height: 6" mystery/vehicles  | grep Owner | wc -l
+  552   grep -B 6 "Height: 6" mystery/vehicles  | grep Owner | grep Annabel
+  553  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  554  cat hint6
+  555  head -n 20 mystery/streets/
+  556  head -n 20 mystery/interviews/
+  557  cat femaleculprits 
+  558  head -n 20 mystery/interviews/interview-47246024
+  559  head -n 20 mystery/interviews/interview-699607
+  560  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6"
+  561  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep Honda
+  562  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | 
+  563  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" 
+  564  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -B 4 
+  565  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -B 4 
+  566  clear
+  567  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" 
+  568  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -A 2 "Blue"
+  569  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -A 2 "Honda"
+  570  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -A 2 "Honda" | grep -A 1 "Blue"
+  571  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Erika Owens" | wc -l
+  572  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Joe Germuska" | wc -l
+  573  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  574  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+  575  head -n 20 mystery/interviews/interview-699607
+  576  clear
+  577  head -n 20 mystery/interviews/interview-699607
+  578  grep -A 5 "L337" mystery/vehicles  | grep -B 6 "Height: 6" | grep -A 2 "Honda" | grep -A 1 "Blue"
+  579  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+  580  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  581  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Erika Owens" | wc -l
+  582  cat mystery/memberships/Museum_of_Bash_History  mystery/memberships/AAA mystery/memberships/Terminal_City_Library mystery/memberships/Delta_SkyMiles | grep "Joe Germuska" | wc -l
+  583  head -n 20 mystery/interviews/interview-699607
+  584  head -n 20 mystery/interviews/interview-47246024`
+  585  head -n 20 mystery/interviews/interview-47246024
+  586  head -n 20 mystery/people | grep "Jacqui Maher"
+  587  cat mystery/people | grep "Jacqui Maher"
+  588  cat mystery/people | grep "Jeremy Bowers"
+  589  history
+  590  history > listofcommands
