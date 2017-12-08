@@ -8,10 +8,10 @@ const cartForParty = {
 };
 
 const cashRegister = function(cart) {
-  let sum = 0;
-  for (const key in cart) {
-    const intPrices = parseFloat(cart[key]);
-    sum = sum + intPrices;
+  let sum = 0; start value
+  for (const key in cart) { //create object loop
+    const intPrices = parseFloat(cart[key]); //turn strings into floats
+    sum = sum + intPrices; // adding each key's vale with loop
   }
   return sum;// loop through object with for in
 };
