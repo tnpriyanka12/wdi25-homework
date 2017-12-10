@@ -1,4 +1,4 @@
-#Badger's Revenge
+# Badger's Revenge
 
 
 The names of those who are witnessed clapping Badger more than twice in the first four days of any one week will go into a draw. On Friday morning, a random name will be drawn from that list and the 'winner' will be forced to deliver the solution to Friday's warmup.
