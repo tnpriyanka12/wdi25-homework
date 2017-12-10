@@ -7,7 +7,7 @@ Create a program that Badger can use for this task - ideally, you should create 
 
 Your program should:
 
-Track how many times each student in the class has clapped this week (just make up the numbers);
-Include a collection of candidates for the Friday draw (ie, a list of names of people who have clapped Badger more than twice that week);
-Pick a random student to deliver the solution to Friday's warmup.
-If no one has clapped enough that week, the program should indicate that Badger has to do his own damned warmup.
+- Track how many times each student in the class has clapped this week (just make up the numbers);
+- Include a collection of candidates for the Friday draw (ie, a list of names of people who have clapped Badger more than twice that week);
+- Pick a random student to deliver the solution to Friday's warmup.
+- If no one has clapped enough that week, the program should indicate that Badger has to do his own damned warmup.
