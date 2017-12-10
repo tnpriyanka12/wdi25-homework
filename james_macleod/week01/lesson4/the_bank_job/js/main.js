@@ -128,7 +128,7 @@ const theBank = {
   }
 };
 
-theBank.withdraw("Harry", 484733);
+theBank.withdraw("Harry", 3733);
 // Balance is $18373. There are insufficient funds for this transaction (deadbeat)
 
 theBank.transfer("Francis", "Sophie", 7283);
