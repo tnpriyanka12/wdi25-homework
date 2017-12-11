@@ -33,7 +33,7 @@
 let isLeapYear = function( enterYear ){
   let year = false;
 
-  //To check the year
+  //To check the year:
   if ( enterYear % 4 === 0 && enterYear % 100 !== 0) {
     year = true;
   };
@@ -53,7 +53,7 @@ let isLeapYear = function( enterYear ){
 //
 // const isLeapYear = function(year){
 //
-//   // year divisible by 4 AND ( NOT divisible by 100 OR divisible by 400)
+//   // year divisible by 4 AND ( NOT divisible by 100 OR IS divisible by 400)
 //
 //   if ( year % 4 === 0 && ( year % 400 === 0 || year % 100 !== 0 )){
 //     // return true
