@@ -143,15 +143,33 @@ const multiLineTrip = function(startLine, startPoint, endLine, endPoint){
 };
 =======
 >>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
+//
+// <<<<<<< HEAD
+// // singleLineTrip('lineN', '34th', 'lineN', '8th');
+// // singleLineTrip('lineN', '8th', 'lineN', '34th');
+//
+// console.log(`\n\n\n\n\n`);
+//
+// const multiLineTrip = function(startLine, startPoint, endLine, endPoint){
+// ///FIRST TRIP
+//     //Change end line to Union Square
+//     var endPointInFirstJourney = 'Union Square';
+//     var endLineInFirstJourney  = startLine;
+//     singleLineTrip(startLine, startPoint, endLineInFirstJourney, endPointInFirstJourney);
+// ////SECOND TRIP
+//     var  startLineInSecondJourney    = endLine;
+//     var  startPointInFirstJourney    = 'Union Square';
+//     console.log(`Changing lines`);
+//     singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
+// };
+// =======
+// >>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
 
 
 
-<<<<<<< HEAD
 // planMyTrip('lineN', '34th', 'line6', 'Astor Place');
 // planMyTrip('lineN', '34th', 'lineN', 'Times Square');
-=======
 subway.planMyTrip('lineN', '34th', 'line6', 'Astor Place');
 subway.planMyTrip('lineN', '34th', 'line6', 'Union Place');
 
 //planMyTrip('lineN', '34th', 'lineN', 'Times Square');
->>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
