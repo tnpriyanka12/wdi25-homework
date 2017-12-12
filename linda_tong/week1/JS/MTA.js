@@ -87,12 +87,12 @@ console.log(allStationNamesSingleLine('34th', 'Union Square'));
 console.log(allStationNamesSingleLine('Union Square', '34th'));
 
 
-
-const planTrip = function (startLine, startStop, endStop, numberOfStops) {
-
-}
-
-endLine
+//
+// const planTrip = function (startLine, startStop, endStop, numberOfStops) {
+//
+// }
+//
+// endLine
 
 
 

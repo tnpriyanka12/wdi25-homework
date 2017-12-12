@@ -79,8 +79,8 @@ const singleLineTrip = function(startLine, startPoint, endLine, endPoint){
       };
 };
 
-singleLineTrip('lineN', '34th', 'lineN', '8th');
-singleLineTrip('lineN', '8th', 'lineN', '34th');
+// singleLineTrip('lineN', '34th', 'lineN', '8th');
+// singleLineTrip('lineN', '8th', 'lineN', '34th');
 
 console.log(`\n\n\n\n\n`);
 
@@ -108,5 +108,5 @@ const planMyTrip = function(startLine, startPoint, endLine, endPoint){
   }
 };
 
-planMyTrip('lineN', '34th', 'line6', 'Astor Place');
-planMyTrip('lineN', '34th', 'lineN', 'Times Square');
+// planMyTrip('lineN', '34th', 'line6', 'Astor Place');
+// planMyTrip('lineN', '34th', 'lineN', 'Times Square');

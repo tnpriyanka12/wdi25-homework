@@ -63,7 +63,7 @@ const showTotalBalance = function(accountList) {
 let total = showTotalBalance( bank );
 // total = total.toFixed(2);
 
-console.log( total.toFixed(); );
+console.log( total.toFixed());
 
 
 // const changeBalance = function()

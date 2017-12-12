@@ -24,10 +24,10 @@ drEvil(1000000);
 //   mixUp('mix', 'pod'): 'pox mid'
 //   mixUp('dog', 'dinner'): 'dig donner'
 // Look up the JavaScript string reference to find methods which may be useful!
-
-const mixUp = function ('string1', 'string2') {
-  
-}
+//
+// const mixUp = function ('string1', 'string2') {
+//
+// }
 
 
 // FixStart

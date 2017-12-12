@@ -41,4 +41,4 @@ const guessLetter = function (letter) {
 guessLetter('O');
 guessLetter('X');
 guessLetter('A');
-guessLetter('F');
+// guessLetter('F');
