@@ -34,7 +34,7 @@ const planTrip = function(startLine, startStation, endLine, endStation) {
   const interchangeEnd = arrEnd.indexOf('Union Square');//index of 'Union Square'. Used after changing lines (second leg)
   let total = 0;// summed total of all stations looped in journey
 
-  if ((startStation === 'Union Square') && endStation === 'Union Square'){//returned if user hasn't selected diff destination
+  if ((startStation === endStation) && startLine === endLine){//returned if user hasn't selected diff destination
     return console.log('Your destination is the same as your origin');
   }
 //main program logic begins
@@ -51,11 +51,11 @@ const planTrip = function(startLine, startStation, endLine, endStation) {
     console.log(`Change at Union Square and travel through the following stop(s) on the ${endLine} line`);
 
     if (lastStation < interchangeEnd) {//if destination station is before 'Union Square' (second leg is interchangeEnd)
-      total = total + revLoop(arrEnd, arrEnd[interchangeEnd-1], endStation);//reverse loop from interchange to destination station. Loop starts one before the 'Union square (interchangeEnd)' so as to not count it again in the summing total of all stations
+      total = total + fwdLoop(arrEnd, arrEnd[interchangeEnd-1], endStation);//reverse loop from interchange to destination station. Loop starts one before the 'Union square (interchangeEnd)' so as to not count it again in the summing total of all stations
       //console.log('test1');
     }
     else {
-      total = total + fwdLoop(arrEnd, arrEnd[interchangeEnd+1], endStation);//forward loop from interchange to destination station. Loop starts one after the 'Union square (interchangeEnd)' station so as to not count it again in the summing total of all stations
+      total = total + revLoop(arrEnd, arrEnd[interchangeEnd+1], endStation);//forward loop from interchange to destination station. Loop starts one after the 'Union square (interchangeEnd)' station so as to not count it again in the summing total of all stations
       //console.log('test2');
     }
   }
@@ -73,4 +73,11 @@ const planTrip = function(startLine, startStation, endLine, endStation) {
   console.log(`${total} stops in total.`);//logs total stations count
 };
 
-planTrip('N', 'Times Square', 'L', '8th');
+//planTrip('N', 'Times Square', 'N', 'Times Square');
+planTrip('N', 'Times Square', '6', 'Astor Place');
+//planTrip('L', 'Union Square', 'L', 'Times Square');
+//planTrip('6', 'Astor Place', 'L', '6th');
+
+// N: ['Times Square', '34th', '28th', '23rd', 'Union Square', '8th'],
+// L: ['8th', '6th', 'Union Square', '3rd', '1st'],
+// 6: ['Grand Central', '33rd', '28th', '23rd', 'Union Square', 'Astor Place']
