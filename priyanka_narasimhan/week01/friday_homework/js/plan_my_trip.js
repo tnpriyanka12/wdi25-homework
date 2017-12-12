@@ -40,10 +40,11 @@ line6 : ['Grand Central',
 
 
    singleLineTrip : function(startLine, startPoint, endLine, endPoint){
-        let currentLine = subway[startLine];
+        let currentLine=[];
+        currentline = subway[startLine];
         let currentLineName = startLine;
         let revLine;
-        //console.log(`CURRENTLINE:${startLine}`);
+        console.log(`CURRENTLINE:${startLine}`);
 
         //Calculating the number of stops
         let startPointIndexVal = currentLine.indexOf(startPoint);
@@ -89,7 +90,7 @@ line6 : ['Grand Central',
         let  startLineInSecondJourney    = endLine;
         let  startPointInFirstJourney    = 'Union Square';
         console.log(`Change at UNION SQUARE\nYour journey continues through the following stops`);
-        singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
+        this.singleLineTrip(startLineInSecondJourney, startPointInFirstJourney, endLine, endPoint);
     },
 
 
@@ -150,5 +151,7 @@ const multiLineTrip = function(startLine, startPoint, endLine, endPoint){
 // planMyTrip('lineN', '34th', 'lineN', 'Times Square');
 =======
 subway.planMyTrip('lineN', '34th', 'line6', 'Astor Place');
+subway.planMyTrip('lineN', '34th', 'line6', 'Union Place');
+
 //planMyTrip('lineN', '34th', 'lineN', 'Times Square');
 >>>>>>> 316e57137ded01d59707e54bf3d2282491087c49
