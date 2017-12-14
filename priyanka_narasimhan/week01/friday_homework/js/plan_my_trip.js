@@ -26,6 +26,7 @@ line6 : ['Grand Central',
           'Union Square',
           'Astor Place',
         ]
+
 },
 
  reverseStations : function(lineToReverse){
@@ -106,9 +107,6 @@ line6 : ['Grand Central',
 };
 
 
-
-
-
 // console.log(`Single trips\n\n\n\n\n`);
 //
 // singleLineTrip('lineN', '34th', 'lineN', '8th');
@@ -120,10 +118,6 @@ line6 : ['Grand Central',
 
 // multiLineTrip('lineN', '34th', 'line6', 'Astor Place');
 // multiLineTrip('lineN', '34th', 'line6', 'Grand Central');
-
-
-
-
 
 
 subway.planMyTrip('lineN', '34th', 'line6', 'Astor Place');
