@@ -86,21 +86,28 @@ mixUp('dog', 'dinner');
 
 
 const fixStart = function ( str1 ) {
-
-  console.log(`input string is ${str1}`);
+ let str1Array = str1.split('');
+  // console.log(`input string is ${str1}`);
 
   // const result = str1.replace(/str1.[length -2]/i, '*');
 
   // const result = str1.replace('*',/str1.[length -2]/g);
 
-  const result = str1.replace(/str1.[length -2]/g, '*');
+  for( let i = 0; i < str1.length; i++) {
+    let strchar = str1.charAt(i);
+     if(strchar === str1.charAt(0)){
+       str1Array[i] = '*';
+     }
+  }
+  // const result = str1.replace(/str1.[length -2]/g, '*');
 
-   // var txt = str.replace(/Microsoft/g,"W3Schools");
-  // const result = str1.replace(/str1.[length -2]/gi, '*');
 
- console.log(`string will be ${result}`);
+  // const result = str1.replace(/str1.[length -2]/,'gi', '*');
 
-  return result;
+ // console.log(`string will be ${result}`);
+   return str1Array.join('');
+  // return result;
 };
 // fixStart('babble'): 'ba**le'
-fixStart('babble');
+let outresult = fixStart('babble');
+console.log(outresult);
