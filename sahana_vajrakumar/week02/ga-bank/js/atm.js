@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+$("#alert").hide();
+$("#newAlert").hide();
+
 let bank = {
 
   bankTotalBalance: 0,
@@ -24,31 +27,34 @@ let bank = {
   },
 
   validInput: function(amount) {
-    if (isNaN(amount)) {
-      alert("Must input numbers");
-      return false;
+   if (isNaN(amount)) {
+     $("#alert").show();
+     return false;
 
-    } else if (amount < 0) {
-      alert("Invalid amount");
-      return false;
-    }else{
-       return true;
-    }
-  },
+   } else if (amount <= 0) {
+     $("#alert").show();
+     return false;
+   }else{
+     $("#alert").hide();
+      return true;
+   }
+ },
 
 
   deposit: function(type, amount) {
+    $("#newAlert").hide();
     let isValid = this.validInput(amount);
     if(isValid){
     this.accounts[type] = this.accounts[type] + amount;
     this.totalBalance();
-    return this.accounts[type];
+
   }
+  return this.accounts[type];
 
   },
 
   withdraw: function(type, amount) {
-
+  $("#newAlert").hide();
     let isValid = this.validInput(amount);
     if(isValid){
     if (amount < this.accounts[type]) {
@@ -69,12 +75,13 @@ let bank = {
       };
 
     } else {
-      alert("Insufficient Balance");
+      $("#newAlert").show();
+
     }
     this.totalBalance();
-     return this.accounts[type]
-  }
 
+  }
+return this.accounts[type];
 }
 }
 

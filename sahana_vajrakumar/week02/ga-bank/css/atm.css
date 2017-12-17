@@ -47,3 +47,13 @@
   background-color: #F52F4F;
   color: #FFF;
 }
+
+#alert{
+  color:white;
+  font-size: 22px;
+}
+
+#newAlert{
+  color:white;
+  font-size: 22px;
+}
