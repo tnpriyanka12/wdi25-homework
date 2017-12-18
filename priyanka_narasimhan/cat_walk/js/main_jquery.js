@@ -2,7 +2,7 @@
 let $h1title = $('h1').html();
 $('h1').html($h1title)
 $h1title = "THE LEFT CAT";
-let $catimage = $('img');
+let $catimage = $('img#cat');
 let dropCat = 0;
 let upCat = 0;
 let bounceCat = 0;
@@ -15,11 +15,9 @@ $('img').attr("src", "images/scared_cat.png");
 
   for( let i = 0; i < 3; i++ ){
     $catimage.animate({'left':'0px'}, 'slow');
-    $catimage.animate({'left':$(window).innerWidth()}, {'h1':'THE LEFT CAT'},
-    {complete:function(){
+    $catimage.animate({'left':$(window).innerWidth()},function(){
           $catimage.attr('src', 'images/thin_cat.jpeg');
         },
-      }
      );
     console.log($(window).innerWidth());
     dropCat = 1;
