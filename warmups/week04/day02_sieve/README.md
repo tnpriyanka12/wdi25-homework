@@ -1,4 +1,4 @@
-## The Sieve of Eratosthenes
+<!-- ## The Sieve of Eratosthenes
 
 ____
 
@@ -21,4 +21,4 @@ ____
 
 #### The sieve in action:
 
-![Sieve of erasothenes in action](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif)
+![Sieve of erasothenes in action](https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif) -->
