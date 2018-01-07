@@ -14,16 +14,18 @@ Using the solution for the original text soup, and the [dat.gui](https://worksho
 - add a button controller which clears all words off the screen when pressed
 
 #### HINTS:
-- To make sure you have the up-to-date Text Soup warmup solution in your fork of the homework repo, and to copy it to a new folder to work on, run these commands in iTerm:
+- To make sure you have the up-to-date Text Soup warmup solution in your fork of the homework repo, and to copy it to a new folder to work on, run these commands in iTerm (BUT MAKE SURE YOU'RE UPDATING THE FILE NAMES APPROPRIATELY):
 ```shell
-cd /replace/these/words/with/the/path/to/your/fork/of/the/homework/repo/wdi17-homework
+cd /replace/these/words/with/the/path/to/your/fork/of/the/homework/repo/wdi25-homework
 git pull upstream master
-cp -r warmups/week_02/textsoup ~/Projects/textsoup2
+cp -r warmups/week_03/textsoup ~/Projects/textsoup2
 cd ~/Projects/textsoup2
 curl https://raw.github.com/dataarts/dat.gui/master/build/dat.gui.js >js/dat.gui.js
 atom .
 ```
 Now you have a copy of the Text Soup warmup in a new folder in your Projects folder (assuming you already have a `~/Projects` folder. We're making this copy so you don't work directly on my warmup solution code in the homework repo, which would cause a merge conflict next time you commit.
+
+Also, you're getting the dat.gui.js file!
 
 - It's probably best not to  use the constructor-style example in the dat.gui page I linked to. It will be simpler to just use an object to store your controller variables, like so:
 
