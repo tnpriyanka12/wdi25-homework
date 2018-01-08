@@ -29,9 +29,11 @@ def raindrops num
   # end
 
   # If str is empty, ie not a factor of 3,5,7 then return num (as string)
-  if str.length == 0
-    str = num.to_s
-  end
+  str += num.to_s if str.empty?
+
+  # if str.length == 0
+  #   str = num.to_s
+  # end
 
   # Ruby allows implicit return. Placing this value last in my program is the same as saying return str.
   str
