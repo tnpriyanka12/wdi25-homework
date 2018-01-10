@@ -1,69 +1,51 @@
 let subway = {
-  lines: [{
-      name: "nLine",
-      stops: ["Times Square", "n34", "n28", "n23", "Union Square", "n8", "n9", "n10"]
-    },
-    {
-      name: "lLine",
-      stops: ["l8", "l6", "Union Square", "l3", "l1"]
-    },
-    {
-      name: "sixLine",
-      stops: ["Grand Central", "six33", "six28", "six23", "Union Square", "Astor Place"]
+  n:["n34" , "n28" , "n23" , "Union Square" , "n8"],
+  l:["l8" , "l6" , "Union Square" , "l3" , "l1"],
+  sixLine:["Grand Central" , "six33" , "six28" , "six23" , "Union Square" , "Astor Place"],
+
+
+sourceLine:function(srcLine , srcStop){
+newArray = [];
+  for(let key in subway){
+if(srcLine === key){
+if(subway[key].indexOf(srcStop) < subway[key].indexOf("Union Square")){
+  newArray = subway[key].slice(subway[key].indexOf(srcStop) , subway[key].indexOf("Union Square")+1)
+}else{
+  newArray = subway[key].slice(subway[key].indexOf("Union Square") , subway[key].indexOf(srcStop)+1)
+  newArray.reverse();
+}
+}
     }
-  ],
+    return newArray.join();
+  },
 
-  // let junction = "Union Square",
+destLine:function(destLine , destStop){
+  newArray = [];
+    for(let key in subway){
+  if(destLine === key){
+  if(subway[key].indexOf(destStop) < subway[key].indexOf("Union Square")){
+    newArray = subway[key].slice(subway[key].indexOf(destStop) , subway[key].indexOf("Union Square") )
+    newArray.reverse();
+  }else{
+    newArray = subway[key].slice(subway[key].indexOf("Union Square")+1 , subway[key].indexOf(destStop)+1)
 
-  calculateTrip: function(line , location){
-  let startSubLine = [];
-  for (i = 0; i < this.lines.length; i++) {
-    if (line === this.lines[i].name) {
-
-      for (j = 0; j < this.lines[i].stops.length; j++) {
-        if (location === this.lines[i].stops[j]) {
-          //this is for the case when startLoc is before union square.
-          if (j < this.lines[i].stops.indexOf("Union Square")) {
-            for (k = j; k <= this.lines[i].stops.indexOf("Union Square"); k++) {
-              startSubLine.push(this.lines[i].stops[k]);
-
-            }
-            //startSubLine.shift()
-
-            //this is for the case when startLoc is after union square
-          } else {
-            for (k = this.lines[i].stops.indexOf("Union Square"); k <= j; k++) {
-              startSubLine.push(this.lines[i].stops[k]);
-
-
-            }
-            //startSubLine.reverse();
-            //startSubLine.shift();
-
-          }
-
-        }
-      }
-    }
   }
-  return startSubLine;
+  }
+      }
+      return newArray.join();
 },
 
-route: function(start, startLoc, stop, stopLoc){
+planMyTrip:function(start , startPoint , stop , stopPoint){
+  if(start === stop){
 
-let startRoute = this.calculateTrip(start , startLoc);
-let stopRoute= this.calculateTrip(stop , stopLoc);
+    console.log(`the stops are ${subway.sourceLine(start , startPoint)} , ${subway.destLine(stop , stopPoint)} `);
+  }else{
 
-//startRoute.shift();
-//stopRoute.pop();
-//stopRoute.reverse();
-
-
-
-console.log(`${startRoute} , ${stopRoute}`);
-
-
+  console.log(`The stops are ${subway.sourceLine(start , startPoint)} CHANGE AT UNION SQUARE follwed by the stops ${subway.destLine(stop , stopPoint)} `);
 }
 }
 
-subway.route("sixLine" , "Grand Central" , "lLine" , "l8");
+}
+
+
+subway.planMyTrip("sixLine" , "Astor Place" , "l" , "l8");
