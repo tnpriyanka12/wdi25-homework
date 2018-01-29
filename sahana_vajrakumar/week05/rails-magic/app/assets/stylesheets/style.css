@@ -14,3 +14,12 @@ p {
   font-size: 35px;
   color: red;
 }
+
+a{
+  font-size: 30px;
+  color: white;
+}
+img{
+  max-width: 600px;
+  max-height: 200px;
+}
